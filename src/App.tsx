@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    
+      <div
+  className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px]"
+></div><div></div>
     </>
   )
 }
