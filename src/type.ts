@@ -8,3 +8,8 @@ export interface Project {
   description: string;
   link?: { text: string; href: string };
 }
+
+export interface Image {
+  src: string;
+  alt: string;
+}
