@@ -17,12 +17,12 @@ export const ImageGax = ({ images }: { images: Image[] }) => {
   };
 
   const randomRotateY = () => {
-    return Math.floor(Math.random() * 21) - 10;
+    return Math.floor(Math.random() * 30) - 10;
   };
 
   return (
     <div className="max-w-sm flex flex-col justify-between md:max-w-md lg:max-w-lg h-full relative self-stretch">
-      <div className="h-full w-full relative">
+      <div className="h-full w-full relative justify-center flex ">
         <AnimatePresence mode="wait">
           {images.map((image, index) => (
             <motion.div
@@ -34,7 +34,7 @@ export const ImageGax = ({ images }: { images: Image[] }) => {
                 rotate: randomRotateY(),
               }}
               animate={{
-                opacity: isActive(index) ? 1 : 0.7,
+                opacity: 1,
                 scale: isActive(index) ? 1 : 0.95,
                 z: isActive(index) ? 0 : -100,
                 rotate: isActive(index) ? 0 : randomRotateY(),
@@ -48,25 +48,30 @@ export const ImageGax = ({ images }: { images: Image[] }) => {
                 rotate: randomRotateY(),
               }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
-              className="absolute inset-0 origin-bottom"
+              className="absolute inset-0 origin-bottom flex justify-center items-center"
             >
-              <img
-                src={image.src}
-                alt={`Image ${index + 1}`}
-                className="h-auto w-full rounded object-cover object-center"
-              />
+              <div className="bg-white border border-[#D9CFC7]/40 p-4 pt-4 pb-16 shadow-lg w-72">
+                <img
+                  src={image.src}
+                  alt="Landscape"
+                  className="w-full aspect-square object-cover"
+                />
+                <p className="text-center mt-6 font-handwriting text-gray-600 text-lg">
+                  {image.alt}
+                </p>
+              </div>
             </motion.div>
           ))}
         </AnimatePresence>
       </div>
 
-      <div className="flex mt-20 z-200">
+      <div className="flex justify-center z-200 pt-8">
         <button
           onClick={handlePrev}
-          className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+          className="group/button flex mx-5 h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
         >
           <svg
-            className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:rotate-12 dark:text-neutral-400"
+            className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400"
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
@@ -77,13 +82,13 @@ export const ImageGax = ({ images }: { images: Image[] }) => {
           >
             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
             <path d="M5 12l14 0" />
-            <path d="M15 16l4 -4" />
-            <path d="M15 8l4 4" />
+            <path d="M5 12l4 4" />
+            <path d="M5 12l4 -4" />
           </svg>
         </button>
         <button
           onClick={handleNext}
-          className="group/button flex h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
+          className="group/button flex mx-5 h-7 w-7 items-center justify-center rounded-full bg-gray-100 dark:bg-neutral-800"
         >
           <svg
             className="h-5 w-5 text-black transition-transform duration-300 group-hover/button:-rotate-12 dark:text-neutral-400"

@@ -5,9 +5,9 @@ import TestImage2 from "./assets/TestImage2.png";
 import TestImage3 from "./assets/TestImage3.png";
 
 export const images: Image[] = [
-  { src: TestImage1, alt: "first image of me" },
-  { src: TestImage2, alt: "Hack AI" },
-  { src: TestImage3, alt: "Hack Canada" },
+  { src: TestImage1, alt: "I'm da Goat" },
+  { src: TestImage2, alt: "Lets gooooo" },
+  { src: TestImage3, alt: "Hehehehehe" },
 ];
 
 export const projects: Project[] = [

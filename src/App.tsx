@@ -6,31 +6,29 @@ import { images } from "./data";
 function App() {
   return (
     <>
-      <div className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] bg-size-[16px_16px] py-20">
+      <div className="text-[#513D24] bg-[#FCFBFA] min-h-screen w-full bg-[radial-gradient(#EFE9E3_1px,transparent_1px)] bg-size-[16px_16px] py-20">
         <div className="flex flex-col mx-auto gap-4 max-w-4xl">
-          <div className="mx-auto max-w-3xl px-4 py-16 font-sans">
+          <div className="mx-auto px-4 py-16 font-sans">
             <div className="flex flex-row">
-            <div className="w-3/5 mr-12">
+            <div className="w-3/5 mr-2">
             <div className="flex items-center justify-between">
-              <h1 className="text-4xl font-bold">Hey, I'm James Cao</h1>
+              <h1 className="text-5xl font-bold">Hey, I'm James Cao</h1>
             </div>
-            <p className="mt-4 text-gray-800">
-              Software/Computer Engineer. Hardware(ish) builder.
+            <p className="mt-3">
+              Software/Computer Engineer. Hardware(ish).
             </p>
-            <p className="mt-4">
+            <p className="mt-1">
               Incoming Student At{" "}
-              <span className="rounded bg-yellow-200 px-1.5 py-0.5 font-medium hover:bg-yellow-300">
-                @uwaterloo
-              </span>
+                @Uwaterloo
             </p>
 
-            <p className="mt-6 font-semibold text-gray-900">
+            <p className="mt-8 text-xl font-bold">
               The highlight of my journey:
             </p>
-            <ul className="mt-2 list-disc space-y-1.5 pl-5 text-sm text-gray-800">
+            <ul className="mt-2 pr-5 list-disc space-y-1.5 pl-5 text-md">
               <li>
                 Founded and scaled{" "}
-                <span className="rounded bg-red-200 px-1.5 py-0.5 font-medium">
+                <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
                   Hack Canada
                 </span>{" "}
                 to one of the largest hackathons IN Canada. 700 Hackers. 200
@@ -38,14 +36,14 @@ function App() {
               </li>
               <li>
                 Built Canada's largest{" "}
-                <span className="rounded bg-yellow-200 px-1.5 py-0.5 font-medium">
+                <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
                   Hackathons Community
                 </span>{" "}
                 5k members. 8M+ Impressions across instagram and Linkedin.
               </li>
               <li>
                 Help Host{" "}
-                <span className="rounded bg-green-200 px-1.5 py-0.5 font-medium">
+                <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
                   Stan
                 </span>{" "}
                 Flag Ship Hackathon. 70 Builers. 20K First Prize. 100K+
@@ -53,7 +51,7 @@ function App() {
               </li>
               <li>
                 Hosting a kick off Hackathon for a{" "}
-                <span className="rounded bg-red-200 px-1.5 py-0.5 font-medium">
+                <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
                   Frontier AI Lab
                 </span>{" "}
                 [Backed by Griffin Gaming Partners, a16z, and more] to find top
@@ -65,7 +63,7 @@ function App() {
               <ImageGax images={images} />
             </div>
             </div>
-            <div className="mx-auto max-w-3xl px-4 py-12">
+            <div className="mx-auto self-stretch flex my-20 ">
               <ProjectGrid projects={projects} />
             </div>
           </div>
