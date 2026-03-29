@@ -6,5 +6,5 @@ import process from 'process'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_URL || '/cowtronics',
+  base: process.env.VITE_BASE_URL || '/portfoliowebsite',
 })
