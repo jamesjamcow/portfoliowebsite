@@ -1,4 +1,3 @@
-import React from "react";
 import type { Project } from "./type";
 import type { NavItem } from "./type";
 import type { Image } from "./type";
