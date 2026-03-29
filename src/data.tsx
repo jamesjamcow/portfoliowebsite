@@ -100,7 +100,7 @@ export const projects: Project[] = [
       "Led a team of 30 to host the most epic hackathon in Canada. 30K+ raised. 700+ hackers. 200+ projects. 2.2K applications.",
   },
   {
-    title: "Hackathosn Canada",
+    title: "Hackathons Canada",
     category: "community",
     image: hackathonsCanada,
     tag: { label: "5k Members", color: "bg-green-500" },
