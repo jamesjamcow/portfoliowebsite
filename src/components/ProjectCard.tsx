@@ -3,7 +3,7 @@ import type { Project } from "../type";
 export function ProjectCard({ project }: { project: Project }) {
   return (
     <div>
-      <div className="overflow-hidden rounded-xl bg-gray-100">
+      <div className="overflow-hidden bg-gray-100">
         <img
           src={project.image}
           alt={project.title}
