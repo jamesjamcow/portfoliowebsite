@@ -58,7 +58,7 @@ export const projects: Project[] = [
     image: laserEngraver,
     tag: { label: "MVP", color: "bg-orange-400" },
     description:
-      "A laser engraver for creating custom designs on various materials.",
+      "A laser engraver for creating custom designs on various materials.CoreXY laser engraver built on a 2020 aluminum extrusion frame with a 10W laser diode. Runs GRBL firmware on an Arduino Uno, using LaserGRBL for G-code generation and job control.",
   },
   {
     title: "Screwceus",
@@ -66,7 +66,7 @@ export const projects: Project[] = [
     image: screwceus,
     tag: { label: "WIP", color: "bg-orange-400" },
     description:
-      '',
+      'Screw and parts inventory management platform for hardware hobbyists. Tracks fastener usage across build projects. Built with React on the frontend and FastAPI with SQLModel on the backend.',
   },
   {
     title: "5DOF Robotic Arm",
@@ -90,7 +90,7 @@ export const projects: Project[] = [
     image: hackAi,
     tag: { label: "70 builders", color: "bg-purple-500" },
     description:
-      "Worked with Stan to host Hack AI to find the best Talent. The coolest people I have ever met and the most fun I have ever had. We had 70+ hackers, some from spaceX, Apple, creibous and founders, and some of the best food I have ever eaten at a hackathon.",
+      "Worked with Stan to host Hack AI to find the best talent. We had 70+ hackers — some from SpaceX, Apple, Cerebras, and founders. The coolest people I've ever met, the best food I've ever had at a hackathon, and the most fun I've ever had",
   },
   {
     title: "Hack Canada",
@@ -98,7 +98,7 @@ export const projects: Project[] = [
     image: hackCanada,
     tag: { label: "700 Hackers", color: "bg-green-500" },
     description:
-      "Lead a team of 30 to host the most epic Hackathon in Canada. 30K+ Raised. 700+ Hackers. 200+ Projects. 2.2k Applicaions.",
+      "Led a team of 30 to host the most epic hackathon in Canada. 30K+ raised. 700+ hackers. 200+ projects. 2.2K applications.",
   },
   {
     title: "Hackathosn Canada",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     image: hackathonsCanada,
     tag: { label: "5k Members", color: "bg-green-500" },
     description:
-      "Loved hackathons, found this community and loved teh team. Joined as a memenber. Worked with Marketing and Operations teams to help grow the community and partner with other orgs.",
+      "Loved hackathons, found this community and loved the team. Joined as a member. Worked with Marketing and Operations teams to help grow the community and partner with other orgs.",
   },
 ];
 

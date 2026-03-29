@@ -30,8 +30,7 @@ function App() {
                     <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
                       Hack Canada
                     </span>{" "}
-                    to one of the largest hackathons IN Canada. 700 Hackers. 200
-                    projects.
+                   into one of Canada's largest hackathons. 700 hackers, 200 projects.
                   </li>
                   <li>
                     Built Canada's largest{" "}
