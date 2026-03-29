@@ -35,16 +35,16 @@ function App() {
                   <li>
                     Built Canada's largest{" "}
                     <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
-                      Hackathons Community
+                      hackathon community
                     </span>{" "}
                     5k members. 8M+ Impressions across instagram and Linkedin.
                   </li>
                   <li>
                     Help Host{" "}
                     <span className="rounded bg-yellow-200/80 px-1.5 py-0.5 font-medium">
-                      Stan
+                      Stan's
                     </span>{" "}
-                    Flag Ship Hackathon. 70 Builers. 20K First Prize. 100K+
+                    flag ship Hackathon. 70 Builers. 20K First Prize. 100K+
                     Impressions. Three Engineers Hired.
                   </li>
                   <li>
